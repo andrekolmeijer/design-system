@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aWebsite Design System</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="px-2 pt-2">
+        <span class="font-mono font-extrabold">aWebsite Design System</span>
+        <div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#about" class="link link--sm link--nav">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="pl-1.5 ml-1.5">
+            <a href="#" class="link">
+              <span class="sr-only">This project on GitHub</span>
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container container--xxl section-devider pt-6.25">
+        <h1 class="text-3xl font-black">Build whatever I want &mdash; faster.</h1>
+        <a href="https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/" target="_blank" class="mt-2 mb-2 link text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+          Codecademy WEB DEVELOPMENT FOUNDATIONS Challenge Project: Build a Website Design System
+        </a>
+        <p class="text-lg leading-7 max-w-xl text-gray">This is my attempt at the challenge project I'm doing for the <span class="font-medium">Web Development Foundations part (Chapter 1-7)</span> of the <a href="https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/" target="_blank" class="link link--lg">Full-Stack Engineer Career Path</a> I'm participating in at <a href="https://www.codecademy.com/" target="_blank" class="link link--lg">Codecademy.</a> Check out the <a href="#" target="_blank" class="link link--lg">repo for this project</a> to read more about what I learned from working on it.</p>
+      </div>
+    </header>
+    <main>
+      <section id="colors" class="container container--xxl section-devider-sm">
+        <h2 class="text-2xl font-extrabold text-primary">Colors</h2>
+        <p class="mt-2 text-lg leading-7 max-w-xl text-gray">I created this color palette at <a href="https://coolors.co/" target="_blank" class="link link--lg">Coolors</a> and used the <a href="https://coolors.co/p/TUOgk2mt5g6cEjcFJ4Ra" target="_blank" class="link link--lg">color palette page</a> for initial page design inspiration. For color naming convention I looked to <a href="https://getbootstrap.com/" target="_blank" class="link link--lg">Bootstrap</a> for this one.</p>
+        <div class="mt-2">
+          <ul>
+            <li class="bg-primary text-white">
+              <div>
+                <span class="text-sm font-light">Primary</span>
+                <span class="mt-1 font-semibold text-xl">1D3557</span>
+              </div>
+            </li>
+            <li class="bg-secondary text-white">
+              <div>
+                <span class="text-sm font-light">Secondary</span>
+                <span class="mt-1 font-semibold text-xl">457B9D</span>
+              </div>
+            </li>
+            <li class="bg-tertiary text-black">
+              <div>
+                <span class="text-sm font-light">Tertiary</span>
+                <span class="mt-1 font-semibold text-xl">A8DADC</span>
+              </div>
+            </li>
+            <li class="bg-background text-black">
+              <div>
+                <span class="text-sm font-light">Background</span>
+                <span class="mt-1 font-semibold text-xl">F1FAEE</span>
+              </div>
+            </li>
+            <li class="bg-danger text-white">
+              <div>
+                <span class="text-sm font-light">Danger</span>
+                <span class="mt-1 font-semibold text-xl">E63946</span>
+              </div>
+            </li>
+            <li class="bg-gray text-white">
+              <div>
+                <span class="text-sm font-light">Gray</span>
+                <span class="mt-1 font-semibold text-xl">636369</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="https://coolors.co/p/TUOgk2mt5g6cEjcFJ4Ra" target="_blank" class="link">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>
+            View on Coolors
+          </a>
+        </div>
+      </section>
+      <section id="fonts" class="container container--xxl section-devider-sm">
+        <h2 class="text-2xl font-extrabold text-primary">Fonts</h2>
+        <p class="mt-2 text-lg leading-7 max-w-xl text-gray">For this section I took inspiration from a fellow student <a href="https://github.com/final-aerith" target="_blank" class="link link--lg">@final-aerith</a> and the <a href="https://final-aerith.github.io/web-design-system/" target="_blank" class="link link--lg">website design system she created.</a> The Inter font is used by both <a href="https://coolors.co" target="_blank" class="link link--lg">Coolors</a> and <a href="https://tailwindcss.com/" target="_blank" class="link link--lg">Tailwind CSS!</a> The Fira Code font I took from <a href="https://tailwindcss.com/" target="_blank" class="link link--lg">Tailwind.</a></p>
+        <div>
+          <a href="https://fonts.google.com/specimen/Inter" target="_blank" class="my-2">
+            <span class="text-4xl font-bold text-primary">aA</span>
+            <span class="text-3xl text-secondary">Inter</span>
+            <span class="my-1 text-base leading-7 text-gray text-center">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ<br> abcdefghijklmnopqrstuvwxyz<br> 0123456789¡!$%&amp;/()=?;: ¡“”@\
+            </span>
+            <span class="mb-1 link">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+              View on Google Fonts
+            </span>
+          </a>
+          <a href="https://fonts.google.com/specimen/Fira+Code" target="_blank" class="my-2 font-mono">
+            <span class="text-4xl font-bold text-primary">aA</span>
+            <span class="text-3xl text-secondary">Fira Code</span>
+            <span class="my-1 text-base leading-7 text-gray text-center">
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ<br> abcdefghijklmnopqrstuvwxyz<br> 0123456789¡!$%&amp;/()=?;: ¡“”@\
+            </span>
+            <span class="mb-1 link font-inter">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+              </svg>
+              View on Google Fonts
+            </span>
+          </a>
+        </div>
+      </section>
+      <section class="container container--xxl section-devider-sm">
+        <h2 class="text-2xl font-extrabold text-primary">Text Styles</h2>
+        <p class="mt-2 text-lg leading-7 max-w-xl text-gray">Initially I took inspiration from the <a href="https://coolors.co/p/TUOgk2mt5g6cEjcFJ4Ra" target="_blank" class="link link--lg">color palette page</a> designing the headings and footer text. For fine tuning however, I looked at <a href="https://tailwindcss.com/" target="_blank" class="link link--lg">Tailwind CSS</a> and how they designed <a href="https://tailwindcss.com/docs/" target="_blank" class="link link--lg">their docs pages.</a></p>
+        <div class="my-2">
+          <section>
+            <h3 class="text-xl font-bold">Heading 1</h3>
+            <div class="my-1">
+              <p class="text-sm text-gray font-light">Black 900 at 3 rem | inherit line height | 100% max width | Black</p>
+              <p class="text-3xl font-black mt-0.5 max-w-full">Whereas a common understanding of these rights and freedoms is</p>
+            </div>
+          </section>
+          <section>
+            <h3 class="text-xl font-bold">Heading 2</h3>
+            <div class="my-1">
+              <p class="text-sm text-gray font-light">Extrabold 800 at 2 rem | 2.25 rem line height | 72 rem max width | Primary</p>
+              <p class="text-2xl font-extrabold text-primary mt-0.5 max-w-3xl">No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.</p>
+            </div>
+          </section>
+          <section>
+            <h3 class="text-xl font-bold">Heading 3</h3>
+            <div class="my-1">
+              <p class="text-sm text-gray font-light">Bold 700 at 1.25 rem | 1.75 rem line height | 56 rem max width | Black</p>
+              <p class="text-xl font-bold mt-0.5 max-w-2xl">Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law.</p>
+            </div>
+          </section>
+          <section>
+            <h3 class="text-xl font-bold">Paragraph</h3>
+            <div class="my-1">
+              <p class="text-sm text-gray font-light">Regular 400 at 1 rem | 1.75 rem line height | 48 rem max width | Gray *</p>
+              <p class="text-base leading-7 text-gray mt-0.5 max-w-xl">No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him. No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.</p>
+            </div>
+          </section>
+          <section>
+            <h3 class="text-xl font-bold">Small Text</h3>
+            <div class="my-1">
+              <p class="text-sm text-gray font-light">Light 300 at .875 rem | 1.5 rem line height | 32 rem max width | Gray Black White</p>
+              <p class="text-sm leading-6 text-gray font-light mt-0.5 max-w-lg">Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance. Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.</p>
+            </div>
+          </section>
+          <section>
+            <p class="text-sm leading-6 text-gray font-light"><em>* Font size set at 16 pixels at root</em></p>
+          </section>
+        </div>
+      </section>
+      <section class="container container--xxl section-devider-sm">
+        <h2 class="text-2xl font-extrabold text-primary">Utility Classes</h2>
+        <p class="mt-2 text-lg leading-7 max-w-xl text-gray">I was glad to see utility classes be included in the <span class="font-medium">Web Development Foundations part</span> of the <a href="https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/" target="_blank" class="link link--lg">career path.</a> Obviously, I took a lot of inspiration from <a href="https://tailwindcss.com/" target="_blank" class="link link--lg">Tailwind CSS</a> here as well.</p>
+        <div id="utilities" class="my-2">
+          <div class="mb-2">
+            <h3 class="text-xl font-bold text-black">Font Size</h3>
+            <p class="mt-1 text-base leading-7 text-gray max-w-xl">
+              Utilities for controlling the font size of an element.
+            </p>
+            <div class="my-2 table-container max-w-xl">
+              <table class="font-mono text-xs leading-6 whitespace-nowrap">
+                <thead>
+                  <tr>
+                    <th scope="col" class="py-0.5 pr-0.5 text-sm leading-6 font-semibold">
+                      Class
+                    </th>
+                    <th scope="col" class="py-0.5 pl-0.5 text-sm leading-6 font-semibold">
+                      Properties
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-xs
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: .75rem; <span class="text-gray">/* 12px */</span><br> line-height: 1rem; <span class="text-gray">/* 16px */</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-sm
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 0.875rem; <span class="text-gray">/* 14px */</span><br> line-height: 1.25rem; <span class="text-gray">/* 20px */</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-base
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 1rem; <span class="text-gray">/* 16px */</span><br> line-height: 1.5rem; <span class="text-gray">/* 24px */</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-lg
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 1.125rem; <span class="text-gray">/* 18px */</span><br> line-height: 1.75rem; <span class="text-gray">/* 28px */</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-xl
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 1.25rem; <span class="text-gray">/* 20px */</span><br> line-height: 1.75rem; <span class="text-gray">/* 28px */</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-2xl
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 2rem; <span class="text-gray">/* 32px */</span><br> line-height: 2.25rem; <span class="text-gray">/* 36px */</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-3xl
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 3rem; <span class="text-gray">/* 48px */</span><br> line-height: inherit;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-4xl
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-size: 8rem; <span class="text-gray">/* 128px */</span><br> line-height: inherit;
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="mb-2">
+            <h3 class="text-xl font-bold text-black mb-1">Font Weight</h3>
+            <p class="mt-1 text-base leading-7 text-gray max-w-xl">
+              Utilities for controlling the font weight of an element.
+            </p>
+            <div class="my-2 table-container max-w-xl">
+              <table class="font-mono text-xs leading-6 whitespace-nowrap">
+                <thead>
+                  <tr>
+                    <th scope="col" class="py-0.5 pr-0.5 text-sm leading-6 font-semibold">
+                      Class
+                    </th>
+                    <th scope="col" class="py-0.5 pl-0.5 text-sm leading-6 font-semibold">
+                      Properties
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-light
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                    font-weight: 300;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-normal
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                    font-weight: 400;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-medium
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                    font-weight: 500;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-semibold
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-weight: 600;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-bold
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-weight: 700;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-extrabold
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-weight: 800;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      font-black
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      font-weight: 900;
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="mb-2">
+            <h3 class="text-xl font-bold text-black mb-1">Text Color</h3>
+            <p class="mt-1 text-base leading-7 text-gray max-w-xl">
+              Utilities for controlling the text color of an element.
+            </p>
+            <div class="my-2 table-container max-w-xl">
+              <table class="font-mono text-xs leading-6 whitespace-nowrap">
+                <thead>
+                  <tr>
+                    <th scope="col" class="py-0.5 pr-0.5 text-sm leading-6 font-semibold">
+                      Class
+                    </th>
+                    <th scope="col" class="py-0.5 pl-0.5 text-sm leading-6 font-semibold">
+                      Properties
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-primary
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #1D3557;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-secondary
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #457B9D;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-tertiary
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #A8DADC;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-background
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #F1FAEE;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-danger
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #E63946;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-gray
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #636369;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-black
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #000;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      text-white
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      color: #fff;
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="mb-2">
+            <h3 class="text-xl font-bold text-black mb-1">Background Color</h3>
+            <p class="mt-1 text-base leading-7 text-gray max-w-xl">
+              Utilities for controlling an element's background color.
+            </p>
+            <div class="my-2 table-container max-w-xl">
+              <table class="font-mono text-xs leading-6 whitespace-nowrap">
+                <thead>
+                  <tr>
+                    <th scope="col" class="py-0.5 pr-0.5 text-sm leading-6 font-semibold">
+                      Class
+                    </th>
+                    <th scope="col" class="py-0.5 pl-0.5 text-sm leading-6 font-semibold">
+                      Properties
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-primary
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #1D3557;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-secondary
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #457B9D;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-tertiary
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #A8DADC;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-background
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #F1FAEE;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-danger
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #E63946;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-gray
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #636369;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-black
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #000;
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="py-0.5 pr-0.5 text-danger font-medium">
+                      bg-white
+                    </th>
+                    <td class="py-0.5 pl-0.5 text-secondary">
+                      background-color: #fff;
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- <div class="mb-2">
+            <h3 class="text-xl font-bold text-black mb-1">Line Height</h3>
+            <ul class="bg-white">
+              <li>leading-6</li>
+              <li>leading-7</li>
+            </ul>
+          </div>
+          <div class="mb-2">
+            <h3 class="text-xl font-bold text-black mb-1">Margin</h3>
+            <ul class="bg-white">
+              <li>my-0.5</li>
+              <li>mt-0.5</li>
+              <li>mb-0.5</li>
+              <li>my-1</li>
+              <li>mt-1</li>
+              <li>mb-1</li>
+              <li>my-2</li>
+              <li>mt-2</li>
+              <li>mb-2</li>
+            </ul>
+          </div>
+          <div class="mb-2">
+            <h3 class="text-xl font-bold text-black mb-1">Max Width</h3>
+            <ul class="bg-white">
+              <li>max-w-xs</li>
+              <li>max-w-sm</li>
+              <li>max-w-md</li>
+              <li>max-w-lg</li>
+              <li>max-w-xl</li>
+              <li>max-w-2xl</li>
+              <li>max-w-3xl</li>
+            </ul>
+          </div> -->
+        </div>
+      </section>
+      <section class="container container--xxl pb-6.25">
+        <h2 class="text-2xl font-extrabold text-primary">Buttons</h2>
+        <p class="mt-2 text-lg leading-7 max-w-xl text-gray">For the buttons and the overall look and feel of the page I took what I learned from the book <a href="https://www.refactoringui.com/" target="_blank" class="link link--lg">Refactoring UI</a> by <a href="https://twitter.com/adamwathan" target="_blank" class="link link--lg">Adam Wathan</a> and <a href="https://twitter.com/steveschoger" target="_blank" class="link link--lg">Steve Schoger.</a></p>
+        <div class="mt-2 grid">
+          <div>
+            <button class="btn btn--primary-primary">Sign up</button>
+            <button class="btn btn--primary-secondary">Sign up</button>
+            <button class="btn btn--primary-tertiary">Sign up</button>
+          </div>
+          <div>
+            <button class="btn btn--secondary-primary">Save</button>
+            <button class="btn btn--secondary-secondary">Save</button>
+            <button class="btn btn--secondary-tertiary">Save</button>
+          </div>
+          <div>
+            <button class="btn btn--tertiary-primary">Agree</button>
+            <button class="btn btn--tertiary-secondary">Agree</button>
+            <button class="btn btn--tertiary-tertiary">Agree</button>
+          </div>
+          <div>
+            <button class="btn btn--danger-primary">Unpublish</button>
+            <button class="btn btn--danger-secondary">Unpublish</button>
+            <button class="btn btn--danger-tertiary">Unpublish</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer id="about" class="bg-white">
+    <section class="container container--xxl">
+      <p class="text-sm leading-6 text-gray font-light">© aWebsite Design System v1.0 by <a href="https://andrekolmeijer.nl" target="_blank" class="link link--sm">André Kolmeijer</a>. Page design inspired by the <a href="https://coolors.co/p/gcwNgFebia24T17eFapE" target="_blank" class="link link--sm">Color Palette</a> page from the palette I created at <a href="https://coolors.co/" target="_blank" class="link link--sm">Coolors</a>.</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/andrekolmeijer" target="_blank" class="link ml-3">
+              <svg fill="currentColor" viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
+                <path d="
+                  M 630, 425
+                  A 195, 195 0 0 1 331, 600
+                  A 142, 142 0 0 0 428, 570
+                  A  70,  70 0 0 1 370, 523
+                  A  70,  70 0 0 0 401, 521
+                  A  70,  70 0 0 1 344, 455
+                  A  70,  70 0 0 0 372, 460
+                  A  70,  70 0 0 1 354, 370
+                  A 195, 195 0 0 0 495, 442
+                  A  67,  67 0 0 1 611, 380
+                  A 117, 117 0 0 0 654, 363
+                  A  65,  65 0 0 1 623, 401
+                  A 117, 117 0 0 0 662, 390
+                  A  65,  65 0 0 1 630, 425
+                  Z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </footer>
+</body>
+</html>
