@@ -2,7 +2,7 @@
 
 [Codecademy WEB DEVELOPMENT FOUNDATIONS Challenge Project: Build a Website Design System](https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/)
 
-This is my attempt at the challenge project I'm doing for the Web Development Foundations part (Chapter 1-7) of the [Full-Stack Engineer Career Path](https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/) I'm participating in at [Codecademy.](https://www.codecademy.com/) Check out the [live site for this project]() to read more about what I learned from working on it.
+This is my attempt at the challenge project I'm doing for the Web Development Foundations part (Chapter 1-7) of the [Full-Stack Engineer Career Path](https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/) I'm participating in at [Codecademy.](https://www.codecademy.com/) Check out the [live site for this project](https://andrekolmeijer.github.io/design-system/) to see the result.
 
 ## What I learned
 
