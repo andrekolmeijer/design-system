@@ -40,7 +40,11 @@ Built it into more of a re-usable template that I could clone and use to quickly
 
 ### A changelog template
 
-Since I'll be learning React later during this career path, I don't think [Next.js](https://nextjs.org/) is a big leap from there. So I plan on using it to experiment with [Commit,](https://tailwindui.com/templates/commit) a [brand new changelog template](https://tailwindcss.com/blog/2023-04-24-new-changelog-template-and-the-biggest-tailwind-ui-update-ever) for [Tailwind UI.](https://tailwindui.com/) Looking forward to getting to know GitHub better in the process.
+Since I'll be learning React later during this career path, I don't think [Next.js](https://nextjs.org/) is a big leap from there. So I plan on using it to experiment with [Commit,](https://tailwindui.com/templates/commit) a [brand new changelog template](https://tailwindcss.com/blog/2023-04-24-new-changelog-template-and-the-biggest-tailwind-ui-update-ever) for [Tailwind UI.](https://tailwindui.com/)
+
+Looking forward to getting to know GitHub better in the process. Thinking of automatic versioning here, with GitHub Releases & Tags using something like [Semantic Release.](https://github.com/semantic-release/semantic-release) This article illustrates it nicely:
+
+- [Automating Versioning and Releases Using Semantic Release](https://medium.com/agoda-engineering/automating-versioning-and-releases-using-semantic-release-6ed355ede742)
 
 ### An Express backend
 
