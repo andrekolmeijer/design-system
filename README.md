@@ -16,6 +16,14 @@ Interesting links that helped me gain a better understanding of specificity and 
 - [Using CSS and @layer](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer)
 - [Reusing Styles](https://tailwindcss.com/docs/reusing-styles)
 
+### One peculiar thing
+
+There is one thing that I ran into that I found quite peculiar in this day and age. Apparently, there is still no `transition` support for the `text-decoration` property. I ran into this when designing the buttons and will have to look into it.
+
+- [CSS transition not working with underline](https://stackoverflow.com/questions/30352431/css-transition-not-working-with-underline)
+- [HTML-CSS: Hover underline animation](https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/html-css-practical-exercise-15.php)
+- [Hover underline animation](https://www.30secondsofcode.org/css/s/hover-underline-animation/)
+
 ## Keep expanding
 
 I want to know if I can work on and come back to a project over a longer period of time. That's why there are a couple of more things I want to add to this the project:
