@@ -42,6 +42,7 @@ I want to know if I can work on and come back to a project over a longer period 
 - Add animations to the buttons
 - Use a code formatter to format my code
 - Split the code into multiple files
+- Add semantic versioning
 
 ## The future
 
