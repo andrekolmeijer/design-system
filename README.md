@@ -1,3 +1,8 @@
+<img src="https://img.shields.io/github/commit-activity/m/andrekolmeijer/design-system?style=flat-square" alt="commits per month" />
+<img src="https://img.shields.io/github/last-commit/andrekolmeijer/design-system?style=flat-square" alt="last commit" />
+
+---
+
 # aWebsite Design System
 
 [Codecademy WEB DEVELOPMENT FOUNDATIONS Challenge Project: Build a Website Design System](https://join.codecademy.com/learn/paths/full-stack-engineer-career-path-b/)
