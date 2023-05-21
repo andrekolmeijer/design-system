@@ -1,5 +1,8 @@
-<img src="https://img.shields.io/github/commit-activity/m/andrekolmeijer/design-system?style=flat-square" alt="commits per month" />
-<img src="https://img.shields.io/github/last-commit/andrekolmeijer/design-system?style=flat-square" alt="last commit" />
+<p>
+  <img src="https://img.shields.io/github/commit-activity/y/andrekolmeijer/design-system?style=flat-square" alt="commits per year" />
+  <img src="https://img.shields.io/github/commit-activity/m/andrekolmeijer/design-system?style=flat-square" alt="commits per month" />
+  <img src="https://img.shields.io/github/last-commit/andrekolmeijer/design-system?style=flat-square" alt="last commit" />
+</p>
 
 ---
 
