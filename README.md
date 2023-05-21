@@ -37,16 +37,16 @@ There is one thing that I ran into that I found quite peculiar in this day and a
 
 I want to know if I can work on and come back to a project over a longer period of time. That's why there are a couple of more things I want to add to this the project:
 
-- Make the site responsive
-- Add a sticky aside navigation
-- Make headings into navigatable links
-- Make the colors click-to-copy
-- Add a scroll to top button
-- Inlcude more of the utility classes I created
-- Add animations to the buttons
-- Use a code formatter to format my code
-- Split the code into multiple files
-- Add semantic versioning
+- [ ] Make the site responsive
+- [ ] Add a sticky aside navigation
+- [ ] Make headings into navigatable links
+- [ ] Make the colors click-to-copy
+- [ ] Add a scroll to top button
+- [ ] Inlcude more of the utility classes I created
+- [ ] Add animations to the buttons
+- [ ] Use a code formatter to format my code
+- [ ] Split the code into multiple files
+- [ ] Add semantic versioning
 
 ## The future
 
