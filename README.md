@@ -1,3 +1,4 @@
+<br>
 <p>
   <img src="https://img.shields.io/github/commit-activity/y/andrekolmeijer/design-system?style=flat-square" alt="commits per year" />
   <img src="https://img.shields.io/github/commit-activity/m/andrekolmeijer/design-system?style=flat-square" alt="commits per month" />
