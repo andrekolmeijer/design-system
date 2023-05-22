@@ -66,4 +66,4 @@ Looking forward to getting to know GitHub better in the process. Thinking of aut
 
 ### An Express backend
 
-Later again during this career path, I'll be learning backend with [Express.js.](https://expressjs.com/) I might be able to use it for that as well.
+Later again during this career path, I'll be learning backend with [Express.js.](https://expressjs.com/) I might be able to use it for that as well. Or I'll be using the changelog template to list changes I make to the Express project.
