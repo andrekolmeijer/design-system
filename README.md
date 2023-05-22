@@ -19,7 +19,7 @@ I've been working with [Tailwind CSS](https://tailwindcss.com/) for a while now 
 
 _Also I learned that doing a website design system right takes considerable more time then just checking the boxes and moving on._
 
-Interesting links that helped me gain a better understanding of specificity and how to deal with it in CSS (funnily enough both are actually about [Tailwind CSS](https://tailwindcss.com/)):
+Interesting links that helped me gain a better understanding of specificity and how to deal with it in CSS (funnily enough they are actually about [Tailwind CSS](https://tailwindcss.com/)):
 
 - [Tailwind: The Base, the Components and the Utilities](https://darkghosthunter.medium.com/tailwind-the-base-the-components-and-the-utilities-a81137c52534)
 - [Using CSS and @layer](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer)
