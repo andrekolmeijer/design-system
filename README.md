@@ -6,11 +6,11 @@ This is my attempt at the challenge project I'm doing for the Web Development Fo
 
 <p>
   <img src="https://img.shields.io/github/actions/workflow/status/andrekolmeijer/design-system/static.yml?style=flat-square" alt="github pages build status" />
+  <img src="https://img.shields.io/github/v/release/andrekolmeijer/design-system?style=flat-square" alt="latest semantic release" />
+  <img src="https://img.shields.io/github/downloads/andrekolmeijer/design-system/total?style=flat-square" alt="total downloads" />
   <img src="https://img.shields.io/github/commit-activity/y/andrekolmeijer/design-system?style=flat-square" alt="commits per year" />
   <img src="https://img.shields.io/github/commit-activity/m/andrekolmeijer/design-system?style=flat-square" alt="commits per month" />
   <img src="https://img.shields.io/github/last-commit/andrekolmeijer/design-system?style=flat-square" alt="last commit" />
-  <img src="https://img.shields.io/github/downloads/andrekolmeijer/design-system/total?style=flat-square" alt="total downloads" />
-  <img src="https://img.shields.io/github/v/release/andrekolmeijer/design-system?style=flat-square" alt="latest semantic release" />
 </p>
 
 ## What I learned
